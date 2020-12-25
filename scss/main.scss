@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: #000;
+
+  h1 {
+    font-size: 34px;
+    color: rgba(243, 34, 34, 0.568);
+    animation-name: h1;
+    animation-duration: 6s;
+
+    @keyframes h1 {
+      from {
+        font-size: 64px;
+        color: #ffffff;
+      }
+      to {
+        font-size: 34px;
+        color: rgba(243, 34, 34, 0.568);
+      }
+    }
+  }
+
+  h2 {
+    font-size: 64px;
+    color: #ffffff;
+    animation-name: h2;
+    animation-duration: 6s;
+
+    @keyframes h2 {
+      from {
+        font-size: 44px;
+        color: rgba(243, 34, 34, 0.568);
+      }
+      to {
+        font-size: 64px;
+        color: #ffffff;
+      }
+    }
+  }
+}
